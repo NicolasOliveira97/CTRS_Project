@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecionando...</title>
+  <script>
+    window.onload = function() {
+      const links = [
+        "https://forms.gle/YX6a84VxQiS54F6n6",
+        "https://forms.gle/euYdqSQrjT1uZa717",
+        "https://forms.gle/yPsB2ZEpdchVm7de9",
+        "https://forms.gle/v5o8dkwgvi7eRNcC8"
+      ];
+      const escolha = Math.floor(Math.random() * links.length);
+      window.location.href = links[escolha];
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecionando para o formulário...</p>
+</body>
+</html>
